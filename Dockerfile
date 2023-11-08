@@ -1,2 +1,2 @@
-FROM registry.access.redhat.com/ubi9/nginx-122:latest
+FROM ghcr.io/ks-no/openshift-nginx/fiks-nginx-openshift:latest
 COPY .vitepress/dist/ /usr/share/nginx/html
